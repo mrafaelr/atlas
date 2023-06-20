@@ -1,6 +1,7 @@
+import './Nav.css'
 
 export default function Nav() {
-    
+
     return (
       <header>
         <div id="logo">
