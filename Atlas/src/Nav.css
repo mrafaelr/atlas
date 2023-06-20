@@ -1,16 +1,18 @@
 #logo {
-    width: 15vw;
-    height: 8vh;
+    width: 9vw;
+    height: 4vh;
     background-color: #FFFFFF;
     margin-left: 1vh;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 450%;
+    font-size: 280%;
     color: #FF4141;
     font-weight:900;
     font-style: italic;
+    border: 2px solid #FFFFFF;
+
 }
 
 header {
@@ -18,7 +20,8 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: 10vh;
+    height: 6vh;
+    box-shadow: 0 5px 5px #b4b4b4;
 }
 
 nav>ul {
@@ -32,12 +35,20 @@ header>nav>ul {
 }
 
 header>nav>ul>li {
-    width: 10vw;
-    height: 8vh;
+    width: 9vw;
+    height: 4vh;
     margin: 1vh;
     margin-right: 0;
     display: flex;
     align-items: center;
     justify-content: center;
     border: 2px solid #FFFFFF;
+}
+
+nav>ul>li>a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9em;
+    font-weight: 900;
 }
